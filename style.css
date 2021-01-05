@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 17;
+}
+/***********************/
+/****header section***/
+/***********************/
+.travel-container{
+	width: 980px;
+	margin: auto;
+}
+.teavel-row{
+	display: flex;
+	align-items: center;
+}
+.travel-col-50{
+	width: 50%;
+}
+.travel-social-media{}
+.travel-social-media ul{
+	display: flex;
+justify-content: flex-end;	
+}
+.travel-social-media ul li{	
+	margin: 0 5px;
+	list-style-type: none;
+	text-align: center;
+}
+.travel-social-media ul li a{
+	color: #fff;
+	font-size: 20px;
+}
+.travel-social-media ul li a .fa{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;	
+	border-radius: 50%;
+}
+.travel-social-media ul li a .fa-facebook-official{
+	background-color: #3b5998;
+}
+.travel-social-media ul li a .fa-twitter{
+	background-color: #45aaf2;
+}
+.travel-social-media ul li a .fa-google-plus{
+	background-color: #dd4b39;
+}
+.travel-social-media ul li a .fa-envelope{
+	background-color: #ea4335;
+}
+.travel-social-media ul li a .fa:hover{
+	opacity: .5;
+}
+
+/***********************/
+/****header section end***/
+/***********************/
+
+/***********************/
+/****banner***/
+/***********************/
+ 
+.travel-banner{
+	min-height: 500px;
+	background-position: center;
+    background-size: cover;	
+	background-image:
+	url(assets/images/banner.jpg);
+}
+/***********************/
+/****banner***/
+/***********************/
+
+
+/***********************/
+/****cat section***/
+/***********************/
+
+.travel-cat-section{
+	padding: 20px 0;
+	background-color: #003e53;
+}
+.travel-cat-title h3{
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.travel-cat-btn{
+	display: flex;
+	justify-content: flex-end;
+}
+.travel-cat-btn a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 20px 40px;
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	text-transform: capitalize;
+	background-color: #e4bc36;
+}
+.travel-cat-btn a:hover{}
+
+
+/***********************/
+/****cat section end***/
+/***********************/
+
+
+/***********************/
+/****service section***/
+/***********************/
+
+.travel-service-section{
+	padding-bottom: 80px;
+}
+.service-content{
+	padding-right: 60px;
+}
+.service-title h3{
+	color: #8daca6;
+	font-size: 36px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.service-des p{
+	padding: 20px 0;
+	color: #7a7a7a;
+	font-weight: 400;	
+}
+.service-btn a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 15px 20px;
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	background-color: #e4bc36;
+}
+.service-images img{
+	display: flex;
+	justify-content: flex-end;
+}
+.service-images img{
+	width: 90%;
+	border: 10px solid #fff;
+	box-shadow: 10px 10px 20px 0 rgba(0,0,0,.12);
+	vertical-align: middle;
+	margin-top: 80px;
+}
+
+/***********************/
+/****service section end***/
+/***********************/
+
+
+/***********************/
+/****testimonial-section***/
+/***********************/
+
+.travel-testimonial-section{
+	padding: 50px 0;
+	background-color: rgba(130, 204, 221, .3);
+	text-align: center;
+}
+.travel-testimonial-section .travel-container{
+	width: 750px;
+	margin: 0 auto;
+}
+.travel-testimonial-title h3{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: 400;
+	color: #003e53;
+	margin-bottom: 50px;
+}
+.travel-testimonial-video{
+	margin-bottom: 20px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.12);	
+}
+.travel-testimonial-video iframe{
+	width: 728px;
+	height: 420px;
+    vertical-align: middle;	
+}
+.travel-testimonial-des p{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 1.3em;
+	font-family: 'Playfair Display', serif;
+	color: #003e53;
+}
+.travel-testimonial-author-image img{
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;	
+	border-radius: 50%;
+    object-fit: cover;	
+}
+.travel-testimonial-author-name{
+	color: #e4bc36;
+	font-family: roboto,sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	line-height: 1.5em;
+}
+.travel-testimonial-author-job{
+	color: #54595f;
+	font-size: .85em;
+	line-height: 1.6em;
+}
+
+/***********************/
+/****testimonial-section***/
+/***********************/
+
+
+
+
+
+
+
+
